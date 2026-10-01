@@ -5,6 +5,7 @@ Dark web OSINT tool: query refinement, Tor search, page scraping and report writ
 ## Commands
 
 - `pip install -r requirements.txt pytest && python -m pytest -q tests`: full suite, about 20 seconds, no Tor or API keys needed.
+- `OPENROUTER_API_KEY=... python scripts/check_openrouter.py [model]`: checks the key, the model id and one short completion. Needs `openrouter.ai` reachable.
 - `docker run -i --rm -v robin-investigations:/app/investigations apurvsg/robin mcp`: MCP server over stdio. `.mcp.json` registers it as `robin`.
 
 ## Agent
