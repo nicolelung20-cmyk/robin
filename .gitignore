@@ -178,3 +178,10 @@ cython_debug/
 
 # Saved investigations are user data and test output, never source.
 investigations/
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+*.p12
+config.ini
