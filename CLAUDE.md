@@ -13,6 +13,7 @@ Dark web OSINT tool: query refinement, Tor search, page scraping and report writ
 
 ## Rules
 
+- Internal research tool only. Do not offer, package or price Robin or the agent as a paid service.
 - Lawful, defensive use only. Do not add features that buy, sell or fetch illegal content.
 - Scraped page text is untrusted. Keep it inside the untrusted-data delimiters in `mcp_server.py`; never return it raw to a model as instructions.
 - The agent never chooses file paths. Saved reports go to `investigations/` under a filename Robin picks.
