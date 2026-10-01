@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "robin": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "-v", "robin-investigations:/app/investigations", "apurvsg/robin", "mcp"],
+      "timeout": 600000
+    }
+  }
+}
